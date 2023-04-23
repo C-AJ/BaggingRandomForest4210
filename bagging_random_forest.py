@@ -72,7 +72,6 @@ for k in range(20): #we will create 20 bootstrap samples here (k = 20). One clas
   # y_training = bootstrapSample[-1]
   for i in bootstrapSample:
       holder = []
-      holderY = []
       for j in range(len(i)):
           if j == len(i) - 1:
               y_training.append(i[j])
